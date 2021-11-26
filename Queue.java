@@ -11,6 +11,14 @@ package com.QuesandStack;
 			queue.addLast(value);
 		}
 
+		public void dequeue() {
+			if (queue.size()<1) {
+				System.out.println(" Queue is Empty");
+				
+				else
+					queue.remove();
+			}
+		}
 		public void displayQueue() {
 			for (Integer integer : queue) {
 				System.out.print(" " + integer);

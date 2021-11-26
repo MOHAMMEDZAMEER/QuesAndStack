@@ -9,6 +9,9 @@ public static void main(String[] args) {
 		q.enqueue(70);
 
 		q.displayQueue();
+		
+		q.dequeue();
+		q.displayQueue();
 	}
 }
 
